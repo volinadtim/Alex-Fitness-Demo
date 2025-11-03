@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { getDevice }  from 'framework7/lite-bundle';
+import { getDevice } from 'framework7/lite-bundle';
 import {
   f7,
   f7ready,
@@ -24,11 +24,10 @@ import {
   BlockFooter
 } from 'framework7-react';
 import cordovaApp from '../js/cordova-app';
-
 import routes from '../js/routes';
 import store from '../js/store';
 
-const MyApp = () => {
+const MyApp: React.FC = () => {
   // Login screen demo data
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');

@@ -1,12 +1,12 @@
 
-import HomePage from '../pages/home.jsx';
-import AboutPage from '../pages/about.jsx';
-import FormPage from '../pages/form.jsx';
+import HomePage from '../pages/home.tsx';
+import AboutPage from '../pages/about.tsx';
+import FormPage from '../pages/form.tsx';
 
 
-import DynamicRoutePage from '../pages/dynamic-route.jsx';
-import RequestAndLoad from '../pages/request-and-load.jsx';
-import NotFoundPage from '../pages/404.jsx';
+import DynamicRoutePage from '../pages/dynamic-route.tsx';
+import RequestAndLoad from '../pages/request-and-load.tsx';
+import NotFoundPage from '../pages/404.tsx';
 
 var routes = [
   {

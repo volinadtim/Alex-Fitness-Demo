@@ -1,7 +1,7 @@
-import React from 'react';
-import { Page, Navbar, Block, List, ListItem } from 'framework7-react';
+import { User } from '@/models/user';
+import { Block, List, ListItem, Navbar, Page } from 'framework7-react';
 
-const RequestAndLoad = (props) => {
+const RequestAndLoad = (props: { user: User }) => {
   const { user } = props;
 
   return (
