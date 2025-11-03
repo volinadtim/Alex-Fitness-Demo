@@ -1,42 +1,44 @@
-# My App
+# Alex Fitness Demo
 
-## Framework7 CLI Options
+## Техническое задание
 
-Framework7 app created with following options:
+### Frontend (Mobile App)
 
-```
-{
-  "cwd": "C:\\Users\\volin\\Documents\\Web\\alex-fitness-demo-frontend-framework7-react",
-  "type": [
-    "cordova"
-  ],
-  "name": "My App",
-  "framework": "react",
-  "template": "single-view",
-  "bundler": "vite",
-  "cssPreProcessor": "less",
-  "theming": {
-    "customColor": true,
-    "color": "#323233",
-    "darkMode": true,
-    "iconFonts": true
-  },
-  "customBuild": false,
-  "pkg": "io.framework7.myapp",
-  "cordova": {
-    "folder": "cordova",
-    "platforms": [
-      "ios",
-      "android"
-    ],
-    "plugins": [
-      "cordova-plugin-statusbar",
-      "cordova-plugin-keyboard",
-      "cordova-plugin-splashscreen"
-    ]
-  }
-}
-```
+#### Технологии:
+- **Framework7** React
+- **TypeScript**
+
+#### Функциональность:
+
+1. **Список товаров**
+   - Отображение каталога товаров в виде списка или карточек
+   - Каждый товар показывает: название, цену и изображение (URL картинки)
+   - При клике на товар - переход на страницу детального просмотра
+
+2. **Детальная страница товара**
+   - Полная информация о товаре: название, описание, цена
+   - Изображение товара
+   - Кнопки редактирования и удаления
+
+3. **Создание/редактирование товара**
+   - Форма с полями: название (обязательное), описание, цена (обязательное), URL изображения
+   - Валидация полей
+   - Кнопка "Сохранить"
+
+4. **API интеграция**
+   - Получение списка товаров с сервера
+   - Получение информации о конкретном товаре
+   - Создание товара через API
+   - Обновление товара через API
+   - Удаление товара через API
+   - Обработка ошибок подключения
+
+#### UI/UX требования:
+- Использование компонентов Framework7 (ListView, Card, Button, Form, Page)
+- Отображение изображений товаров (если URL указан)
+- Простой и понятный интерфейс
+- Индикатор загрузки при запросах к API
+
 
 ## Install Dependencies
 
