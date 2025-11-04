@@ -4,6 +4,7 @@ import { Product } from '@/models/product';
 import {
   Block,
   BlockTitle,
+  Button,
   f7,
   List,
   ListButton,
@@ -250,14 +251,13 @@ const ProductForm: React.FC<ProductFormProps> = ({ f7router, id }) => {
             </button>
 
             {isEditMode && (
-              <button
-                title="Удалить товар"
+              <Button
                 color="red"
                 onClick={handleDelete}
                 disabled={saving}
               >
                 Удалить товар
-              </button>
+              </Button>
             )}
           </Block>
         </List>
