@@ -1,13 +1,13 @@
 # Alex Fitness Demo Backend. Laravel
 
-## Запуск
-
-### Зависимости
+## Зависимости
 
 + php8
 + composer
 + laravel12
 + Docker
+
+## Запуск
 
 ```
 docker compose up # поднятие БД

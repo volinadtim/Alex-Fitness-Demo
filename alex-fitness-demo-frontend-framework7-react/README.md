@@ -40,11 +40,16 @@
 - Индикатор загрузки при запросах к API
 
 
-## Install Dependencies
+## Зависимости
 
-First of all we need to install dependencies, run in terminal
 ```
 npm install
+```
+
+## Запуск
+
+```
+npm run dev
 ```
 
 ## NPM Scripts
