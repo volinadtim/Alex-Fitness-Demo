@@ -3,7 +3,7 @@
   "type": [
     "cordova"
   ],
-  "name": "My App",
+  "name": "Alex Fitness Demo",
   "framework": "react",
   "template": "single-view",
   "bundler": "vite",

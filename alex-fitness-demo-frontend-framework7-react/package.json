@@ -2,7 +2,7 @@
   "name": "my-app",
   "private": true,
   "version": "1.0.0",
-  "description": "My App",
+  "description": "Alex Fitness Demo",
   "repository": "",
   "license": "UNLICENSED",
   "scripts": {
@@ -44,6 +44,7 @@
     "less": "^4.4.2",
     "postcss-preset-env": "^10.4.0",
     "rollup": "^4.52.5",
+    "sass-embedded": "^1.93.3",
     "typescript": "^5.9.3",
     "vite": "^7.1.12",
     "vite-plugin-html": "^3.2.2"

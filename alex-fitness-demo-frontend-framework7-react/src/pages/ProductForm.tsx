@@ -30,7 +30,7 @@ const ProductForm: React.FC<ProductFormProps> = ({ f7router, id }) => {
     name: '',
     price: 0,
     description: '',
-    imageUrl: '',
+    image_url: '',
     // category: '',
     // inStock: true,
   });
@@ -201,8 +201,8 @@ const ProductForm: React.FC<ProductFormProps> = ({ f7router, id }) => {
             label="URL изображения"
             type="url"
             placeholder="https://example.com/image.jpg"
-            value={formData.imageUrl}
-            onInput={(e) => handleInputChange('imageUrl', e.target.value)}
+            value={formData.image_url}
+            onInput={(e) => handleInputChange('image_url', e.target.value)}
             clearButton
           />
 

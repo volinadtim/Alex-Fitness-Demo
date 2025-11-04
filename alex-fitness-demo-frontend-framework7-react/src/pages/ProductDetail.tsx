@@ -86,23 +86,22 @@ const ProductDetail: React.FC<ProductDetailProps> = ({ f7router, id }) => {
       <Navbar title={product.name} backLink="Назад" />
 
       <Block>
-        {product.imageUrl && (
+        {
           <img
-            src={product.imageUrl}
+            src={product.image_url || '/assets/no-image.webp'}
             alt={product.name}
             style={{
               width: '100%',
               maxHeight: '300px',
-              objectFit: 'cover',
+              objectFit: 'contain',
               borderRadius: '12px',
               marginBottom: '16px',
             }}
             onError={(e) => {
-              (e.target as HTMLImageElement).src =
-                '/images/placeholder-product.jpg';
+              (e.target as HTMLImageElement).src = '/assets/no-image.webp';
             }}
           />
-        )}
+        }
 
         <BlockTitle style={{ marginTop: '0' }}>{product.name}</BlockTitle>
 
